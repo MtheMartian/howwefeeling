@@ -1,0 +1,12 @@
+@import url('./reset_css.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;900&display=swap');
+
+body{
+  background-color: rgb(0, 61, 117);
+  font-family: Nunito, Arial;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+}

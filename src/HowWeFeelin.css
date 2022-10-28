@@ -1,0 +1,36 @@
+.moodBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  
+  position:absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  margin-left: -17%;
+}
+
+.feelText{
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.moodBox input{
+  font-size: 20px;
+  width: 550px;
+  height: 35px;
+  padding: 2px 20px;
+  border-style: none;
+  border-radius: 10px;
+  background: white;
+  box-shadow: inset 0 0 5px rgba(71, 14, 228, 0.8);
+  transition: box-shadow 0.15s;
+}
+
+.moodBox input:hover{
+  box-shadow: inset 0 0 7px rgba(71, 14, 228, 1);
+}
