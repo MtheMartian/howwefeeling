@@ -7,9 +7,10 @@ function App() {
     <main>
       <div className="moodBox">
         <div className="feelText">HOW WE FEELING?</div>
-      <div>
-        <input id="userMood" type="text" placeholder="Mood" />
-      </div>
+        <div id='search-container'>
+          <input id="userMood" type="text" placeholder="Mood" />
+          <button id='initiate-search'>GO</button>
+        </div>
       </div>
     </main>
   );
